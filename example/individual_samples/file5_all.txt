@@ -1,0 +1,25 @@
+#mpa_v30_CHOCOPhlAn_201901
+#/home/vsteb002/miniconda3/envs/metaphlan3/bin/metaphlan /home/vsteb002/GWI_2022/experiment_runs/03-26-2022-abundance/../../data/samples_metagen/GWP_14P_S147_L007_R1_001.fastq,/home/vsteb002/GWI_2022/experiment_runs/03-26-2022-abundance/../../data/samples_metagen/GWP_14P_S147_L007_R2_001.fastq --index latest --input_type fastq --no_map --ignore_archaea --ignore_eukaryotes --nproc 8 --tax_lev s -o ./out_abundance/individual_samples//GWP_14P_S147_L007.txt
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+s__Dubosiella_newyorkensis	1862672	66.55537	
+s__Lactococcus_lactis	1358	13.78102	
+s__Akkermansia_muciniphila	239935	8.46736	
+s__Lachnospiraceae_bacterium_A4	397291	4.07313	
+s__Bacteroides_thetaiotaomicron	818	3.06632	
+s__Lactobacillus_johnsonii	33959	2.23444	
+s__Lachnospiraceae_bacterium_COE1	1235793	0.70194	
+s__Lachnospiraceae_bacterium_28_4	397287	0.42725	
+s__Anaerotruncus_sp_G3_2012	1235835	0.39752	
+s__Enterococcus_faecalis	1351	0.08777	
+s__Lachnospiraceae_bacterium_M18_1	1235792	0.03404	
+s__Clostridium_sp_ASF502	97139	0.03367	
+s__Asaccharobacter_celatus	394340	0.03342	
+s__Adlercreutzia_equolifaciens	446660	0.03045	
+s__Clostridium_cocleatum	69824	0.0256	
+s__Dorea_sp_5_2	1235798	0.02194	
+s__Oscillibacter_sp_1_3	1235797	0.0123	
+s__Enterorhabdus_caecimuris	671266	0.01176	
+s__Firmicutes_bacterium_ASF500	1378168	0.00327	
+s__Acetatifactor_muris	879566	0.00144	
+UNKNOWN	-1	0.0	

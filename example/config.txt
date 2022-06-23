@@ -1,0 +1,2 @@
+Prefix plugins/MetaPhlAnMerge/example
+Plugin MetaPhlAnMerge inputfile individual_samples/ outputfile together_header.txt

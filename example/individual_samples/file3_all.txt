@@ -1,0 +1,18 @@
+#mpa_v30_CHOCOPhlAn_201901
+#/home/vsteb002/miniconda3/envs/metaphlan3/bin/metaphlan /home/vsteb002/GWI_2022/experiment_runs/03-26-2022-abundance/../../data/samples_metagen/GWP_12P_S142_L007_R1_001.fastq,/home/vsteb002/GWI_2022/experiment_runs/03-26-2022-abundance/../../data/samples_metagen/GWP_12P_S142_L007_R2_001.fastq --index latest --input_type fastq --no_map --ignore_archaea --ignore_eukaryotes --nproc 8 --tax_lev s -o ./out_abundance/individual_samples//GWP_12P_S142_L007.txt
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+s__Dubosiella_newyorkensis	1862672	59.25161	
+s__Lactococcus_lactis	1358	31.08926	
+s__Lachnospiraceae_bacterium_28_4	397287	3.33329	
+s__Akkermansia_muciniphila	239935	2.4147	
+s__Lachnospiraceae_bacterium_A2	397290	2.14738	
+s__Bacteroides_thetaiotaomicron	818	0.66414	
+s__Enterococcus_faecalis	1351	0.50229	
+s__Terrisporobacter_othiniensis	1577792	0.23332	
+s__Clostridium_cocleatum	69824	0.17631	
+s__Ruthenibacterium_lactatiformans	1550024	0.11753	
+s__Streptococcus_thermophilus	1308	0.05506	
+s__Lactobacillus_johnsonii	33959	0.01417	
+s__Lachnospiraceae_bacterium_M18_1	1235792	0.00094	
+UNKNOWN	-1	0.0	
