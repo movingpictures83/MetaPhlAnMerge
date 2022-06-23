@@ -1,24 +1,79 @@
-#mpa_v30_CHOCOPhlAn_201901
-#/home/vsteb002/miniconda3/envs/metaphlan3/bin/metaphlan /home/vsteb002/GWI_2022/experiment_runs/03-26-2022-abundance/../../data/samples_metagen/GWP_10P_S140_L007_R1_001.fastq,/home/vsteb002/GWI_2022/experiment_runs/03-26-2022-abundance/../../data/samples_metagen/GWP_10P_S140_L007_R2_001.fastq --index latest --input_type fastq --no_map --ignore_archaea --ignore_eukaryotes --nproc 8 --tax_lev s -o ./out_abundance/individual_samples//GWP_10P_S140_L007.txt
+#DB
+#command
 #SampleID	Metaphlan_Analysis
 #clade_name	NCBI_tax_id	relative_abundance	additional_species
-s__Akkermansia_muciniphila	239935	41.35034	
-s__Lactococcus_lactis	1358	28.94541	
-s__Lachnospiraceae_bacterium_28_4	397287	12.85812	
-s__Bacteroides_thetaiotaomicron	818	11.41255	
-s__Parasutterella_excrementihominis	487175	2.38309	
-s__Dorea_sp_5_2	1235798	1.08988	
-s__Enterococcus_faecalis	1351	0.51152	
-s__Lachnospiraceae_bacterium_M18_1	1235792	0.5079	
-s__Anaerotruncus_sp_G3_2012	1235835	0.37482	
-s__Clostridium_cocleatum	69824	0.10888	
-s__Asaccharobacter_celatus	394340	0.10816	
-s__Adlercreutzia_equolifaciens	446660	0.09931	
-s__Streptococcus_thermophilus	1308	0.07191	
-s__Lactobacillus_johnsonii	33959	0.0521	
-s__Dubosiella_newyorkensis	1862672	0.04677	
-s__Proteobacteria_bacterium_CAG_139	1262986	0.04483	
-s__Lachnospiraceae_bacterium_A2	397290	0.01862	
-s__Enterorhabdus_caecimuris	671266	0.01062	
-s__Clostridium_sp_ASF502	97139	0.00288	
-s__Firmicutes_bacterium_ASF500	1378168	0.0023	
+k__Bacteria	2	100.0	
+k__Bacteria|p__Firmicutes	2|1239	43.57424	
+k__Bacteria|p__Verrucomicrobia	2|74201	41.47676	
+k__Bacteria|p__Bacteroidetes	2|976	12.31704	
+k__Bacteria|p__Proteobacteria	2|1224	2.40019	
+k__Bacteria|p__Actinobacteria	2|201174	0.23178	
+k__Bacteria|p__Verrucomicrobia|c__Verrucomicrobiae	2|74201|203494	41.47676	
+k__Bacteria|p__Firmicutes|c__Bacilli	2|1239|91061	28.54973	
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	14.87409	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia	2|976|200643	12.31704	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria	2|1224|28216	2.35961	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia	2|201174|84998	0.23178	
+k__Bacteria|p__Firmicutes|c__Erysipelotrichia	2|1239|526524	0.14795	
+k__Bacteria|p__Proteobacteria|c__Proteobacteria_unclassified	2|1224|	0.04057	
+k__Bacteria|p__Firmicutes|c__Firmicutes_unclassified	2|1239|	0.00247	
+k__Bacteria|p__Verrucomicrobia|c__Verrucomicrobiae|o__Verrucomicrobiales	2|74201|203494|48461	41.47676	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales	2|1239|91061|186826	28.54973	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales	2|1239|186801|186802	14.87409	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales	2|976|200643|171549	12.31704	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales	2|1224|28216|80840	2.35961	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Eggerthellales	2|201174|84998|1643822	0.23178	
+k__Bacteria|p__Firmicutes|c__Erysipelotrichia|o__Erysipelotrichales	2|1239|526524|526525	0.14795	
+k__Bacteria|p__Proteobacteria|c__Proteobacteria_unclassified|o__Proteobacteria_unclassified	2|1224||	0.04057	
+k__Bacteria|p__Firmicutes|c__Firmicutes_unclassified|o__Firmicutes_unclassified	2|1239||	0.00247	
+k__Bacteria|p__Verrucomicrobia|c__Verrucomicrobiae|o__Verrucomicrobiales|f__Akkermansiaceae	2|74201|203494|48461|1647988	41.47676	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae	2|1239|91061|186826|1300	27.98239	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae	2|1239|186801|186802|186803	14.6335	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae	2|976|200643|171549|815	12.31704	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Sutterellaceae	2|1224|28216|80840|995019	2.35961	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae	2|1239|91061|186826|81852	0.51339	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Ruminococcaceae	2|1239|186801|186802|541000	0.23759	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Eggerthellales|f__Eggerthellaceae	2|201174|84998|1643822|1643826	0.23178	
+k__Bacteria|p__Firmicutes|c__Erysipelotrichia|o__Erysipelotrichales|f__Erysipelotrichaceae	2|1239|526524|526525|128827	0.14795	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae	2|1239|91061|186826|33958	0.05395	
+k__Bacteria|p__Proteobacteria|c__Proteobacteria_unclassified|o__Proteobacteria_unclassified|f__Proteobacteria_unclassified	2|1224|||	0.04057	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae	2|1239|186801|186802|31979	0.003	
+k__Bacteria|p__Firmicutes|c__Firmicutes_unclassified|o__Firmicutes_unclassified|f__Firmicutes_unclassified	2|1239|||	0.00247	
+k__Bacteria|p__Verrucomicrobia|c__Verrucomicrobiae|o__Verrucomicrobiales|f__Akkermansiaceae|g__Akkermansia	2|74201|203494|48461|1647988|239934	41.47676	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Lactococcus	2|1239|91061|186826|1300|1357	27.9103	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Lachnospiraceae_unclassified	2|1239|186801|186802|186803|	13.49303	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides	2|976|200643|171549|815|816	12.31704	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Sutterellaceae|g__Parasutterella	2|1224|28216|80840|995019|577310	2.35961	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Dorea	2|1239|186801|186802|186803|189330	1.14048	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae|g__Enterococcus	2|1239|91061|186826|81852|1350	0.51339	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Ruminococcaceae|g__Anaerotruncus	2|1239|186801|186802|541000|244127	0.23759	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Eggerthellales|f__Eggerthellaceae|g__Asaccharobacter	2|201174|84998|1643822|1643826|553372	0.1182	
+k__Bacteria|p__Firmicutes|c__Erysipelotrichia|o__Erysipelotrichales|f__Erysipelotrichaceae|g__Erysipelatoclostridium	2|1239|526524|526525|128827|1505663	0.10746	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Eggerthellales|f__Eggerthellaceae|g__Adlercreutzia	2|201174|84998|1643822|1643826|447020	0.10161	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus	2|1239|91061|186826|1300|1301	0.07209	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus	2|1239|91061|186826|33958|1578	0.05395	
+k__Bacteria|p__Proteobacteria|c__Proteobacteria_unclassified|o__Proteobacteria_unclassified|f__Proteobacteria_unclassified|g__Proteobacteria_unclassified	2|1224||||	0.04057	
+k__Bacteria|p__Firmicutes|c__Erysipelotrichia|o__Erysipelotrichales|f__Erysipelotrichaceae|g__Dubosiella	2|1239|526524|526525|128827|1937008	0.04049	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Eggerthellales|f__Eggerthellaceae|g__Enterorhabdus	2|201174|84998|1643822|1643826|580024	0.01197	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium	2|1239|186801|186802|31979|1485	0.003	
+k__Bacteria|p__Firmicutes|c__Firmicutes_unclassified|o__Firmicutes_unclassified|f__Firmicutes_unclassified|g__Firmicutes_unclassified	2|1239||||	0.00247	
+k__Bacteria|p__Verrucomicrobia|c__Verrucomicrobiae|o__Verrucomicrobiales|f__Akkermansiaceae|g__Akkermansia|s__Akkermansia_muciniphila	2|74201|203494|48461|1647988|239934|239935	41.47676	k__Bacteria|p__Verrucomicrobia|c__Verrucomicrobiae|o__Verrucomicrobiales|f__Akkermansiaceae|g__Akkermansia|s__Akkermansia_sp_54_46,k__Bacteria|p__Verrucomicrobia|c__Verrucomicrobiae|o__Verrucomicrobiales|f__Akkermansiaceae|g__Akkermansia|s__Akkermansia_sp_CAG_344
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Lactococcus|s__Lactococcus_lactis	2|1239|91061|186826|1300|1357|1358	27.9103	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Lachnospiraceae_unclassified|s__Lachnospiraceae_bacterium_28_4	2|1239|186801|186802|186803||397287	12.97837	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_thetaiotaomicron	2|976|200643|171549|815|816|818	12.31704	k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_sp_AR20,k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_sp_AM23_12,k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_sp_1_1_14
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Sutterellaceae|g__Parasutterella|s__Parasutterella_excrementihominis	2|1224|28216|80840|995019|577310|487175	2.35961	k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Burkholderiales_unclassified|g__Burkholderiales_unclassified|s__Burkholderiales_bacterium_1_1_47
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Dorea|s__Dorea_sp_5_2	2|1239|186801|186802|186803|189330|1235798	1.14048	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae|g__Enterococcus|s__Enterococcus_faecalis	2|1239|91061|186826|81852|1350|1351	0.51339	k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae|g__Enterococcus|s__Enterococcus_sp_HMSC078F03,k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Enterococcaceae|g__Enterococcus|s__Enterococcus_sp_HMSC073E09
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Lachnospiraceae_unclassified|s__Lachnospiraceae_bacterium_M18_1	2|1239|186801|186802|186803||1235792	0.4945	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Ruminococcaceae|g__Anaerotruncus|s__Anaerotruncus_sp_G3_2012	2|1239|186801|186802|541000|244127|1235835	0.23759	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Eggerthellales|f__Eggerthellaceae|g__Asaccharobacter|s__Asaccharobacter_celatus	2|201174|84998|1643822|1643826|553372|394340	0.1182	
+k__Bacteria|p__Firmicutes|c__Erysipelotrichia|o__Erysipelotrichales|f__Erysipelotrichaceae|g__Erysipelatoclostridium|s__Clostridium_cocleatum	2|1239|526524|526525|128827|1505663|69824	0.10746	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Eggerthellales|f__Eggerthellaceae|g__Adlercreutzia|s__Adlercreutzia_equolifaciens	2|201174|84998|1643822|1643826|447020|446660	0.10161	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_thermophilus	2|1239|91061|186826|1300|1301|1308	0.07209	k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_thermophilus_CAG_236
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_johnsonii	2|1239|91061|186826|33958|1578|33959	0.05395	k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_sp_UMNPBX19
+k__Bacteria|p__Proteobacteria|c__Proteobacteria_unclassified|o__Proteobacteria_unclassified|f__Proteobacteria_unclassified|g__Proteobacteria_unclassified|s__Proteobacteria_bacterium_CAG_139	2|1224|||||1262986	0.04057	
+k__Bacteria|p__Firmicutes|c__Erysipelotrichia|o__Erysipelotrichales|f__Erysipelotrichaceae|g__Dubosiella|s__Dubosiella_newyorkensis	2|1239|526524|526525|128827|1937008|1862672	0.04049	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Lachnospiraceae_unclassified|s__Lachnospiraceae_bacterium_A2	2|1239|186801|186802|186803||397290	0.02015	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Eggerthellales|f__Eggerthellaceae|g__Enterorhabdus|s__Enterorhabdus_caecimuris	2|201174|84998|1643822|1643826|580024|671266	0.01197	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium_sp_ASF502	2|1239|186801|186802|31979|1485|97139	0.003	
+k__Bacteria|p__Firmicutes|c__Firmicutes_unclassified|o__Firmicutes_unclassified|f__Firmicutes_unclassified|g__Firmicutes_unclassified|s__Firmicutes_bacterium_ASF500	2|1239|||||1378168	0.00247	
